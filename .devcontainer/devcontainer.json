@@ -1,4 +1,4 @@
 {
     "image": "mcr.microsoft.com/devcontainers/typescript-node:20-bookworm",
-    "postCreateCommand": "npm install -g vercel"
+    "postCreateCommand": "npm install -g vercel create-next-app"
 }
