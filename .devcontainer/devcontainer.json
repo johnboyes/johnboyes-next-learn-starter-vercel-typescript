@@ -3,7 +3,7 @@
 	"postCreateCommand": "pnpm install",
 	"customizations": {
 		"vscode": {
-			"extensions": ["biomejs.biome"],
+			"extensions": ["biomejs.biome", "GitHub.vscode-github-actions"],
 			"settings": {
 				"editor.defaultFormatter": "biomejs.biome"
 			}
