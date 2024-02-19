@@ -2,7 +2,8 @@
  
 import { useEffect } from 'react';
  
-export default function Error({
+// biome-ignore lint/suspicious/noShadowRestrictedNames: think the function may have to be called Error 
+export  default function Error({
   error,
   reset,
 }: {
