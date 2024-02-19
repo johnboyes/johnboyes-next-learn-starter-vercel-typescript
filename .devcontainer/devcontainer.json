@@ -1,4 +1,15 @@
 {
     "image": "mcr.microsoft.com/devcontainers/typescript-node:20-bookworm",
-    "postCreateCommand": "npm install -g vercel create-next-app"
+    "postCreateCommand": "npm install -g vercel create-next-app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "biomejs.biome"
+            ],
+            "settings": {
+                "editor.defaultFormatter": "biomejs.biome",
+                "editor.formatOnSave": true
+            }
+        }
+    }
 }
