@@ -9,7 +9,8 @@ export const formatCurrency = (amount: number) => {
 
 export const formatDateToLocal = (
   dateStr: string,
-  locale: 'en-US',
+  // biome-ignore lint/style/noInferrableTypes: seems to break if we remove the type
+  locale: string = 'en-US',
 ) => {
   const date = new Date(dateStr);
   const options: Intl.DateTimeFormatOptions = {
